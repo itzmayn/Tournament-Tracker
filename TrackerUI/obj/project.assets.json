@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\CP0\\.nuget\\packages\\": {},
@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CP0\\Documents\\GitHub\\Tournament-Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
-      "projectName": "TrackerLibrary",
-      "projectPath": "C:\\Users\\CP0\\Documents\\GitHub\\Tournament-Tracker\\TrackerLibrary\\TrackerLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\CP0\\Documents\\GitHub\\Tournament-Tracker\\TrackerUI\\TrackerUI.csproj",
+      "projectName": "TrackerUI",
+      "projectPath": "C:\\Users\\CP0\\Documents\\GitHub\\Tournament-Tracker\\TrackerUI\\TrackerUI.csproj",
       "packagesPath": "C:\\Users\\CP0\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CP0\\Documents\\GitHub\\Tournament-Tracker\\TrackerLibrary\\obj\\",
+      "outputPath": "C:\\Users\\CP0\\Documents\\GitHub\\Tournament-Tracker\\TrackerUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -29,7 +29,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -37,8 +37,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "projectReferences": {}
         }
       },
@@ -49,8 +49,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -65,6 +65,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
